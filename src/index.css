@@ -104,6 +104,10 @@ body {
         will-change: opacity, transform;
     }
 
+    .border-hsla {
+        @apply border border-white/20;
+    }
+
     .bento-tilt_1 {
         @apply relative border border-white/20 col-span-2 overflow-hidden rounded-md transition-transform duration-300 ease-out;
     }
