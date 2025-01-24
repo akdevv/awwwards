@@ -3,6 +3,8 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Features from "./components/features";
 import Story from "./components/story";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
 	return (
@@ -12,6 +14,8 @@ function App() {
 			<About />
 			<Features />
 			<Story />
+			<Contact />
+			<Footer />
 		</main>
 	);
 }
